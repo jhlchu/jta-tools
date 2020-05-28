@@ -1,3 +1,9 @@
-language: node
-deploy: firebase
-  token: $TOKEN
+language: node_js
+node_js: 8
+  
+script:
+  - node index.js
+#- firebase login:ci
+#language: node
+#deploy: firebase
+#  token: $TOKEN
