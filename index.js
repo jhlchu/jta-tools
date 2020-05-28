@@ -9,6 +9,6 @@ const folders = readdirSync(__dirname, { withFileTypes: true })
   .map(dirent => dirent.name)
   .filter(dir => !ignore.contains(dir));
 
-console.log('folders', folders');
+console.log('folders', folders);
 
 console.log('project-id', $PROJECT_ID);
