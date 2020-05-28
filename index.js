@@ -11,4 +11,9 @@ const folders = readdirSync(__dirname, { withFileTypes: true })
 
 console.log('folders', folders);
 
-console.log('project-id', $PROJECT_ID);
+if (process.argv.length === 2) {
+  console.error('Expected at least one argument!');
+  process.exit(1);
+}
+
+console.log('project-id', process.argv[2]);
