@@ -1,8 +1,8 @@
 language: node_js
 node_js: 10
   
-#script:
-  #- node index.js $BASE_URL $BASE_URL_BACKUP
+script:
+  - node index.js $BASE_URL $BASE_URL_BACKUP
 deploy:
   provider: firebase
   token:
