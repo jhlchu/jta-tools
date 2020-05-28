@@ -1,7 +1,10 @@
-console.log('inside build');
+const { readdirSync } = require('fs')
 
-let main = () => {
-  console.log('inside main');
-}
+console.log('current dir', __dirname);
 
-main();
+const folders = readdirSync(__dirname, { withFileTypes: true })
+  .filter(dirent => dirent.isDirectory())
+  .map(dirent => dirent.name)
+
+
+console.log('folders', folders);
