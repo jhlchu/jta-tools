@@ -1,3 +1,4 @@
+console.log('running...');
 /*
 const { readdirSync } = require('fs');
 const path = require('path');
