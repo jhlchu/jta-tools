@@ -1,14 +1,16 @@
 language: node_js
 node_js: 10
   
+before_script:
+  - npm install firebase-tools -g
+  - cd functions
+  - npm install
+
 script:
-  - node index.js $BASE_URL $BASE_URL_BACKUP
-deploy:
-  provider: firebase
-  token:
-    secure: "$TOKEN"
-  project: "$PROJECT_ID"
-  edge: true
+  - firebase --non-interactive deploy --only hosting --project "$PROJECT_ID" --token "$TOKEN"
+  #- node index.js $BASE_URL $BASE_URL_BACKUP
+  
+
 #- firebase login:ci
 # language: node
 # deploy: firebase
