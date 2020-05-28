@@ -4,10 +4,10 @@
       'Type': "Density",
       'Constants': [
         {
-          'key': "Water"
-          'value': [
-            { 'Units': ["g", "ml"], 'value': 1 },
-            { 'Units': ["g", "cm^3"], 'value': 1 },
+          'Key': "Water"
+          'Value': [
+            { 'Units': ["g", "ml"], 'Value': 1 },
+            { 'Units': ["g", "cm^3"], 'Value': 1 },
           ]
         },
       ],
