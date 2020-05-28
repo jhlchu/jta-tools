@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      ".travis.yml",
+      "LICENSE",
+      "index.js",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
