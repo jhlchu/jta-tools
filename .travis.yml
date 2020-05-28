@@ -3,7 +3,6 @@ node_js: 10
   
 before_script:
   - npm install firebase-tools -g
-  - cd functions
   - npm install
 
 script:
