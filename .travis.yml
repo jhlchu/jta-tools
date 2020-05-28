@@ -2,7 +2,7 @@ language: node_js
 node_js: 10
   
 script:
-  -	./configure && make
+  - ./configure && make
   #- node index.js $BASE_URL $BASE_URL_BACKUP
 deploy:
   provider: firebase
