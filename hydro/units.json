@@ -1,0 +1,25 @@
+[
+  {
+    'Type': "Weight",
+    'Units': [
+      { 'Name': "Pound", 'Key': "lb", 'Value': 1 },
+      { 'Name': "Ounce", 'Key': "oz", 'Value': 1 },
+      { 'Name': "Microgram", 'Key': "μg", 'Value': 0.0001 },
+      { 'Name': "Milligram", 'Key': "mg", 'Value': 0.001 },
+      { 'Name': "Gram", 'Key': "g", 'Value': 1 },
+      { 'Name': "Kilogram", 'Key': "kg", 'Value': 1000 },
+    ],
+  },
+  {
+    'Type': "Volume",
+    'Units': [
+      { 'Name': "Teaspoon", 'Key': "tsp", 'Value': 0.001 },
+      { 'Name': "Tablespoon", 'Key': "tbsp", 'Value': 0.001 },
+      { 'Name': "Fluid Ounce", 'Key': "oz fl.", 'Value': 0.001 },
+      { 'Name': "Gallon", 'Key': "gal", 'Value': 0.001 },
+      { 'Name': "Microliter", 'Key': "μl", 'Value': 0.001 },
+      { 'Name': "Milliliter", 'Key': "ml", 'Value': 1 },
+      { 'Name': "Liter", 'Key': "l", 'Value': 1000 },
+    ],
+  },
+]
