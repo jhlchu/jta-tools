@@ -17,3 +17,5 @@ if (process.argv.length === 2) {
 }
 
 console.log('project-id', process.argv[2]);
+
+console.log('pid', $PID);
