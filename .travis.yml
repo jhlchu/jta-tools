@@ -2,7 +2,12 @@ language: node_js
 node_js: 10
   
 script:
-  - node index.js $BASE_URL $BASE_URL_BACKUP
+  #- node index.js $BASE_URL $BASE_URL_BACKUP
+deploy:
+  provider: firebase
+  token:
+    secure: "$TOKEN"
+  project: "$PROJECT_ID"
 #- firebase login:ci
 #language: node
 #deploy: firebase
