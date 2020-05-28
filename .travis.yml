@@ -2,7 +2,7 @@ language: node_js
 node_js: 10
   
 script:
-  - node index.js
+  - node index.js $PROJECT_ID
 #- firebase login:ci
 #language: node
 #deploy: firebase
