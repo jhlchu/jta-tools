@@ -9,6 +9,6 @@ deploy:
     secure: "$TOKEN"
   project: "$PROJECT_ID"
 #- firebase login:ci
-#language: node
-#deploy: firebase
+# language: node
+# deploy: firebase
 #  token: $TOKEN
